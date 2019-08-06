@@ -73,6 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
 
       if holiday_arr.length > 1
         holiday_arr.each do |word|
+          binding.pry
           holiday_cap = holiday_cap + "#{word.capitalize!}"
         end
       else
